@@ -1,0 +1,254 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  
+  overflow: hidden;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10;
+  padding: 1.5vh;
+  display: flex;
+  flex-direction: row;
+  align-items: space;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: left;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#cartIcon {
+  background-color: inherit;
+  width: 20vw;
+  border: 1px solid white;
+  border-radius: 5px;
+  position: relative;
+}
+
+#ItemsListerContainer {
+  height: 90vh;
+  width: 100%;
+}
+
+button {
+  background-color: transparent;
+}
+
+#foodOptionsHolder {
+  height: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c5c9d2;
+}
+
+.foodOption {
+  flex: 1; /* Each child will have equal space */
+  height: 100%;
+  border-color: white;
+  font-weight: bold;
+}
+
+.activeFoodOption {
+  background-color: #6f7a90;
+  color: white;
+  flex: 1; /* Each child will have equal space */
+  height: 100%;
+  border-color: white;
+  font-weight: bold;
+}
+
+.foodOption:active {
+  background-color: #6f7a90;
+  color: white;
+}
+
+.editCart {
+  background-color: #c5c9d2;
+}
+
+#fooditemsHolder {
+  padding: 1vh 4vw;
+  height: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 3vh 1vh;
+  overflow-y: scroll;
+}
+
+
+#remainingPart {
+  flex: auto;
+}
+
+
+.item {
+  height: 35%;
+  min-height: fit-content;
+  width: 45%;
+  background-color: #282c34;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+img {
+  height: 75%;
+  width: 100%;
+  border: 1px solid white;
+}
+
+.itemDetailsHolder {
+  height: 80%;
+}
+
+.cartValue {
+  display: flex;
+  justify-content: space-around;
+  height: 10%;
+}
+
+.cartValue > button {
+ height: 110%;
+ width: 22%;
+  border: unset; 
+  border-radius: 5px;
+  font-weight: bolder;
+}
+
+
+.cartEditbuttons {
+  display: flex;
+  justify-content: space-around;
+  height: 30%;
+}
+
+.cartEditbuttons > button {
+  border-radius: 5px;
+  height: 50%;
+  width: 32%;
+  background-color: #282c34;
+  color: white;
+}
+
+
+#cartCountShower {
+  position: absolute;
+  color: black;
+  height: 40%;
+  width: 25%;
+  background-color: rgb(255, 97, 97);
+  border-radius: 320px;
+  padding: 0.5vh;
+  right: -8%;
+  top: -4%;
+  text-align: center;
+  font-weight: bold;
+}
+
+#cartPage {
+  height: 90vh;
+}
+
+#listOfItems {
+  height: 85%;
+  padding: 1vh;
+  overflow-y: scroll;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  border: 1px solid black;
+}
+
+
+.cartItem {
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  background-color: #c5c9d2;
+  margin: 1vh;
+  border: 1px solid #282c34;
+  border-radius: 5px;
+  box-shadow: rgba(14, 63, 126, 0.04) 0px 0px 0px 1px, rgba(42, 51, 69, 0.04) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.04) 0px 6px 6px -3px, rgba(14, 63, 126, 0.04) 0px 12px 12px -6px, rgba(14, 63, 126, 0.04) 0px 24px 24px -12px;
+}
+
+.cartItem img {
+  min-height: 100%;
+  min-width: 20%;
+}
+
+
+#cartOptions {
+  height: 15%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #d8dae0;
+  align-items: center;
+
+} 
+
+.cartOption {
+  width: 45%;
+  height: 85%;
+  padding: 0.5vh;
+  
+}
+
+.cartOption > button {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  font-weight: bolder;
+  background-color: #282c34;
+  color: white;
+}
+
+.itemDetailsHolder {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1vh;
+  align-items: center;
+}
+
+.itemNameAndQtyHolder {
+  width: 60%;
+}
+
+.itemDetailsHolder > * {
+  min-height: fit-content;
+}
