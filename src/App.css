@@ -4,13 +4,17 @@
   box-sizing: border-box;
 }
 
+html {
+  height: -webkit-fill-available;
+}
+
 
 .App {
   height: 100svh;
   display: flex;
   flex-direction: column;
-  
   overflow: hidden;
+  height: -webkit-fill-available;
 }
 
 .App-logo {
