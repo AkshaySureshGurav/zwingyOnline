@@ -10,7 +10,7 @@ html {
 
 
 .App {
-  height: 100svh;
+  height: 95svh;
   display: flex;
   flex-direction: column;
   overflow: hidden;
