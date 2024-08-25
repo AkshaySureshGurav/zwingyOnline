@@ -1,17 +1,30 @@
 import React from 'react';
 import ItemsLister from './itemsLister';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './App.css';
 import Cart from './cart';
 import useStore from './store';
 
 function App() {
+
+  useEffect(() => {
+    const updateViewportHeight = () => {
+      const vh = window.innerHeight * 0.01;
+      document.documentElement.style.setProperty('--vh', `${vh}px`);
+    };
+
+    updateViewportHeight(); // Set height on initial load
+    window.addEventListener('resize', updateViewportHeight); // Update height on resize
+
+    return () => window.removeEventListener('resize', updateViewportHeight); // Cleanup
+  }, []);
+
   const {countOfItems} = useStore()
   console.log("Count of items in cart - " + countOfItems)
   const [isCartVisible, setIsCartVisible] = useState(false)
 
   return (
-    <div className="App">
+    <div className="App" style={{ height: 'calc(var(--vh, 1vh) * 100)' }}>
       <header className="App-header">
         <section>
           <h1>Zwingy</h1>
