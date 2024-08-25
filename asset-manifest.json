@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/zwingyOnline/static/css/main.a4cb4ed2.css",
+    "main.js": "/zwingyOnline/static/js/main.3fac1f7e.js",
+    "static/js/453.3257c68d.chunk.js": "/zwingyOnline/static/js/453.3257c68d.chunk.js",
+    "index.html": "/zwingyOnline/index.html",
+    "main.a4cb4ed2.css.map": "/zwingyOnline/static/css/main.a4cb4ed2.css.map",
+    "main.3fac1f7e.js.map": "/zwingyOnline/static/js/main.3fac1f7e.js.map",
+    "453.3257c68d.chunk.js.map": "/zwingyOnline/static/js/453.3257c68d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4cb4ed2.css",
+    "static/js/main.3fac1f7e.js"
+  ]
+}
