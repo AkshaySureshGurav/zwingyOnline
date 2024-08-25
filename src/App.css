@@ -6,7 +6,7 @@
 
 
 .App {
-  height: 100vh;
+  height: 100svh;
   display: flex;
   flex-direction: column;
   
@@ -26,7 +26,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 10;
+  min-height: 10vh;
   padding: 1.5vh;
   display: flex;
   flex-direction: row;
@@ -56,6 +56,9 @@
   border: 1px solid white;
   border-radius: 5px;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #ItemsListerContainer {
@@ -171,8 +174,8 @@ img {
 #cartCountShower {
   position: absolute;
   color: black;
-  height: 40%;
-  width: 25%;
+  height: 3.5vh;
+  width: 3.5vh;
   background-color: rgb(255, 97, 97);
   border-radius: 320px;
   padding: 0.5vh;
@@ -180,6 +183,9 @@ img {
   top: -4%;
   text-align: center;
   font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #cartPage {
@@ -198,6 +204,7 @@ img {
 .cartItem {
   height: 20%;
   display: flex;
+  align-items: center;
   flex-direction: row;
   background-color: #c5c9d2;
   margin: 1vh;
@@ -252,3 +259,52 @@ img {
 .itemDetailsHolder > * {
   min-height: fit-content;
 }
+
+
+#loadingAnimationHolder {
+  height: 100vh;
+  background: white;
+
+}
+
+.lds-bars {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 10vh;
+  width: 7vw;
+  min-height: 50px;
+  min-width: 50px;
+  background: inherit;
+}
+
+
+.lds-bars div {
+  width: 12%;
+  border-radius: 45px;
+  background-color: #282c34;
+  animation: lds-bars 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+
+.lds-bars div:nth-child(1) {
+  animation-delay: -0.24s;
+}
+.lds-bars div:nth-child(2) {
+  animation-delay: -0.12s;
+}
+.lds-facebook div:nth-child(3) {
+  animation-delay: 0;
+}
+@keyframes lds-bars {
+  0% {
+    height: 80%;
+  }
+  50%, 100% {
+    height: 45%;
+  }
+}
+

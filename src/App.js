@@ -7,7 +7,7 @@ import useStore from './store';
 
 function App() {
   const {countOfItems} = useStore()
-  console.log("sds - " + countOfItems)
+  console.log("Count of items in cart - " + countOfItems)
   const [isCartVisible, setIsCartVisible] = useState(false)
 
   return (

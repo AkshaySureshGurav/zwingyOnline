@@ -26,19 +26,19 @@
         },
         {
             "id": "Food-4",
-            "name": "Butter Chicken",
+            "name": "B-Chicken",
             "price": 299,
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Chicken_makhani.jpg/320px-Chicken_makhani.jpg"
         },
         {
             "id": "Food-5",
-            "name": "Paneer Tikka",
+            "name": "P-Tikka",
             "price": 249,
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Panir_Tikka_Indian_cheese_grilled.jpg/320px-Panir_Tikka_Indian_cheese_grilled.jpg"
         },
         {
             "id": "Food-6",
-            "name": "Masala Dosa",
+            "name": "M-Dosa",
             "price": 99,
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Dosai_Chutney_Hotel_Saravana_Bhavan.jpg/320px-Dosai_Chutney_Hotel_Saravana_Bhavan.jpg"
         },
@@ -108,37 +108,37 @@
     ], 
     "Deserts": [
         {
-            "id": "Deserts-1",
+            "id": "Deserts-0",
             "name": "Tiramisu",
             "price": 150,
             "image": "https://media.istockphoto.com/id/956986120/photo/italian-dessert-tiramisu-with-mascarpone-cheese-and-espresso-coffee.jpg?s=612x612&w=0&k=20&c=XAyRuKGFSX3iAQXG69_ADauMTOvrtfcks9BbuppAcmA="
         },
         {
-            "id": "Deserts-2",
+            "id": "Deserts-1",
             "name": "Macarons",
             "price": 200,
             "image": "https://media.istockphoto.com/id/904540928/photo/multi-colored-macaroons-in-a-blue-plate-shot-on-blue-table.jpg?s=612x612&w=0&k=20&c=fdjZkpWybhH20wQ8tBiHj3rdke0sBuzW_VdCHwWq0dU="
         },
         {
-            "id": "Deserts-3",
+            "id": "Deserts-2",
             "name": "Baklava",
             "price": 180,
             "image": "https://media.istockphoto.com/id/183422455/photo/perfect-baklava-with-pistachio-arranged-on-a-white-plate.jpg?s=612x612&w=0&k=20&c=PrqSbfqsNKkLa1U9CNi6M2aT4pV98aDxX2_cQiqOxo0="
         },
         {
-            "id": "Deserts-4",
+            "id": "Deserts-3",
             "name": "Cheesecake",
             "price": 220,
             "image": "https://media.istockphoto.com/id/1225491381/photo/cheesecake-with-caramel-sauce.jpg?s=612x612&w=0&k=20&c=RhQ8vfvs_W2jJw7EBahIF-UImeBABrVNflM3whnUm_M="
         },
         {
-            "id": "Deserts-5",
+            "id": "Deserts-4",
             "name": "Churros",
             "price": 120,
             "image": "https://media.istockphoto.com/id/1135149297/photo/churros-sticks-in-paper-bag-with-sugar-powder-cinnamon.jpg?s=612x612&w=0&k=20&c=BknXHG5BLpkRQExHoNdWQgqyL7kn2aCaI6hugR33s6g="
         },
         {
-            "id": "Deserts-6",
+            "id": "Deserts-5",
             "name": "Gulab Jamun",
             "price": 90,
             "image": "https://media.istockphoto.com/id/1188000786/photo/gulab-jamun-in-bowl-on-wooden-background-indian-dessert-or-sweet-dish.jpg?s=612x612&w=0&k=20&c=FICjdgqO7rk2Kt4zpsP1bvr_Wa3mDphyd-Y48-MHo8w="

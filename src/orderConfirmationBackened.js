@@ -1,5 +1,6 @@
 export async function orderConfirmationBackened(cartData) {
     const url = 'https://grove-calico-hexagon.glitch.me/sendEmail';
+    console.log(cartData)
 
     try {
         const response = await fetch(url, {
@@ -16,8 +17,8 @@ export async function orderConfirmationBackened(cartData) {
         }
 
         const result = await response.json(); 
-        console.log(result.status === 200)// Parse the JSON response
-        return result.status === 200 ? 1 : 0; // Handle the result here (e.g., update UI, state)
+        console.log("Order placed at backened (Confirmation/Email) - " + (result.status === 200));
+        return result.status === 200; // Handle the result here (e.g., update UI, state)
     } catch (error) {
         console.error('There was a problem with the fetch operation:', error);
         return 0;
