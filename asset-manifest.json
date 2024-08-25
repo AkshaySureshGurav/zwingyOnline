@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/zwingyOnline/static/css/main.a4cb4ed2.css",
-    "main.js": "/zwingyOnline/static/js/main.3fac1f7e.js",
+    "main.css": "/zwingyOnline/static/css/main.bbac6763.css",
+    "main.js": "/zwingyOnline/static/js/main.fe0a66c9.js",
     "static/js/453.3257c68d.chunk.js": "/zwingyOnline/static/js/453.3257c68d.chunk.js",
     "index.html": "/zwingyOnline/index.html",
-    "main.a4cb4ed2.css.map": "/zwingyOnline/static/css/main.a4cb4ed2.css.map",
-    "main.3fac1f7e.js.map": "/zwingyOnline/static/js/main.3fac1f7e.js.map",
+    "main.bbac6763.css.map": "/zwingyOnline/static/css/main.bbac6763.css.map",
+    "main.fe0a66c9.js.map": "/zwingyOnline/static/js/main.fe0a66c9.js.map",
     "453.3257c68d.chunk.js.map": "/zwingyOnline/static/js/453.3257c68d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4cb4ed2.css",
-    "static/js/main.3fac1f7e.js"
+    "static/css/main.bbac6763.css",
+    "static/js/main.fe0a66c9.js"
   ]
 }
